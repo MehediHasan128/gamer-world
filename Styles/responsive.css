@@ -1,0 +1,36 @@
+/* Large Mobile */
+@media screen and (max-width: 576px) {
+    
+    /* Nav Bar styles */
+    .nav-content{
+        width: 100%;
+    }
+    .nav-content{
+        flex-direction: column;
+    }
+    .mainNav{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .mainNav li{
+        margin-top: 20px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+/* Tablet device */
+@media screen and (min-width: 577px) and (max-width: 900px) {
+    /* Nav bar style */
+    .nav-content{
+        width: 90%;
+    }
+}
