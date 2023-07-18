@@ -1,5 +1,8 @@
 /* Large Mobile */
 @media screen and (max-width: 576px) {
+    body{
+        padding: 0 15px;
+    }
     
     /* Nav Bar styles */
     .nav-content{
@@ -16,7 +19,22 @@
         margin-top: 20px;
     }
 
-    
+
+
+    /* Banner section style */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        padding: 100px 10px;
+        height: auto;
+    }
+    .banner-img{
+        margin: 0 auto;
+    }
+    .banner-img img{
+        width: 100%;
+    }
 }
 
 
@@ -29,8 +47,26 @@
 
 /* Tablet device */
 @media screen and (min-width: 577px) and (max-width: 900px) {
+    body{
+        padding: 0 20px;
+    }
     /* Nav bar style */
     .nav-content{
         width: 90%;
     }
+
+
+
+    /* Banner section style */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        padding: 100px 150px;
+        height: auto;
+    }
+    .banner-img{
+        margin: 0 auto;
+    }
+    
 }
