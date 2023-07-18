@@ -1,14 +1,20 @@
 /* Large Mobile */
 @media screen and (max-width: 576px) {
-    body{
-        padding: 0 15px;
+    
+
+    /* Shared styles */
+    .signInBtn, .rogueBtn, .btnKnown{
+        padding: 15px 30px;
     }
+    .rogueBtn{
+        margin-left: 10px;
+    }
+
+
     
     /* Nav Bar styles */
     .nav-content{
         width: 100%;
-    }
-    .nav-content{
         flex-direction: column;
     }
     .mainNav{
@@ -26,7 +32,7 @@
         flex-direction: column-reverse;
     }
     .banner-content{
-        padding: 100px 10px;
+        padding: 100px 20px;
         height: auto;
     }
     .banner-img{
@@ -34,6 +40,30 @@
     }
     .banner-img img{
         width: 100%;
+    }
+
+
+
+    /* Main section styles */
+
+
+        /* We are gamer section styles */
+    .gamer{
+        width: 100%;
+    }
+    .gamer-container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-img img{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -69,4 +99,23 @@
         margin: 0 auto;
     }
     
+
+    /* Main section styles */
+
+
+        /* We are gamer section styles */
+        .gamer{
+            width: 100%;
+        }
+        .gamer-container{
+            width: 100%;
+            flex-direction: column;
+        }
+        .gamer-img img{
+            width: 100%;
+        }
+        .gamer-content{
+            width: 100%;
+            text-align: center;
+        }
 }

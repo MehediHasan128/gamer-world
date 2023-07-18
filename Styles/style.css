@@ -6,7 +6,7 @@
 }
 
 /* Shared styles */
-.signInBtn, .rogueBtn{
+.signInBtn, .rogueBtn, .btnKnown{
     padding: 20px 40px;
     border-radius: 50px;
     outline: none;
@@ -15,6 +15,15 @@
     font-weight: 600;
     color: white;
     text-transform: uppercase;
+}
+.signInBtn, .btnKnown{
+    background: var(--linear, linear-gradient(90deg, #ee6aae 0%, #e41a82 100%));
+}
+.banner-title, .gamer-title{
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    font-size: 90px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navBar{
@@ -90,8 +99,7 @@
 .banner-content{
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
-    height: 700px;
-    padding: 208px 240px;
+    padding: 208px 350px 0 200px;
 }
 .banner-sub-title{
     font-size: 48px;
@@ -100,10 +108,7 @@
     color: #0B0223;
 }
 .banner-title{
-    background: linear-gradient(180deg, #00dbde, #fc00ff);
     font-size: 90px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .banner-list{
     margin-top: 24px;
@@ -120,13 +125,55 @@
     margin-left: 10px;
     font-weight: 500;
 }
-.signInBtn{
-    background: var(--linear, linear-gradient(90deg, #ee6aae 0%, #e41a82 100%));
-    margin-right: 24px;
-}
 .rogueBtn{
     background: var(--linear, linear-gradient(90deg, #75caee 0%, #1bb0f0 100%));
+    margin-left: 20px;
 }
 .banner-img{
     margin-right: 200px;
+}
+
+
+
+
+/* Main section styles */
+
+
+/* We are gamer section styles */
+.gamer{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer-content{
+    width: 520px;
+    text-align: end;
+}
+.gamer-title{
+    font-size: 48px;
+}
+.gamer-description{
+    font-size: 18px;
+    color: #534c64;
+    margin: 30px 0;
+    line-height: 30px;
+}
+.our-purpose{
+    font-size: 24px;
+    font-weight: 500;
+    color: #534c64;
+    margin-top: 24px;
+}
+.our-purpose span{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(39, 39, 39);
+    line-height: 45px;
 }
