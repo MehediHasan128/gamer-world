@@ -65,6 +65,21 @@
         width: 100%;
         text-align: center;
     }
+
+
+
+    /* online games section */
+    .online-game-container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .games-container{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+    .card{
+        width: 100%;
+    }
 }
 
 
@@ -117,5 +132,20 @@
         .gamer-content{
             width: 100%;
             text-align: center;
+        }
+
+
+        /* online games section */
+        .online-game-container{
+            width: 100%;
+            padding: 0 15px;
+        }
+        .games-container{
+            margin: 0 auto;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 50px;
+        }
+        .card{
+            width: 100%;
         }
 }
