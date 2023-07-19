@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    width: 100vw;
+}
 
 /* Shared styles */
 section{
@@ -342,13 +345,13 @@ section{
 /* Footer section style */
 .footer{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #0b0223;
     padding: 120px 0;
     color: white;
     text-align: center;
+}
+.footer-container{
+    width: 100%;
 }
 .footer-logo{
     justify-content: center;

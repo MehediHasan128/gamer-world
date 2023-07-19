@@ -139,7 +139,10 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    
+    .copy-right-message{
+        font-size: 14px;
+        line-height: 30px;
+    }
 }
 
 
@@ -170,7 +173,6 @@
     .banner-img{
         margin: 0 auto;
     }
-    
 
     /* Main section styles */
 
@@ -247,6 +249,7 @@
         padding: 10px;
         font-size: 14px;
     }
+
 
 
 
