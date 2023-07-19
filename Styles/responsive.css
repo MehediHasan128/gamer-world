@@ -80,6 +80,31 @@
     .card{
         width: 100%;
     }
+
+
+
+    /* Play game section style */
+    .play-game-container{
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .text-container{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .secondary-img{
+        width: 35%;
+        top: 230px;
+        left: -30px;
+    }
 }
 
 
@@ -148,4 +173,26 @@
         .card{
             width: 100%;
         }
+            /* Play game section style */
+    .play-game-container{
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .text-container{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .secondary-img{
+        width: 35%;
+        top: 480px;
+        left: -30px;
+    }
 }
