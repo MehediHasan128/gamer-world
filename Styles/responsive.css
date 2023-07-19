@@ -125,6 +125,20 @@
     .catagory-card img{
         margin-right: 5px;
     }
+
+
+
+
+    /* footer section style */
+    .footer-items{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0px;
+    }
+    .footer-items a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     
 }
 
@@ -232,5 +246,22 @@
         width: 30%;
         padding: 10px;
         font-size: 14px;
+    }
+
+
+
+    /* footer section style */
+    .footer{
+        width: 100%;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-items{
+        gap: 20px;
+    }
+    .footer-items a{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
