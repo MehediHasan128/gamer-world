@@ -105,6 +105,27 @@
         top: 230px;
         left: -30px;
     }
+
+
+    /* Play game section style */
+    .catagory{
+        margin: 150px 0;
+        padding: 100px 15px;
+    }
+    .catagory-container{
+        width: 100%;
+        margin: 0;
+        gap: 20px;
+    }
+    .catagory-card{
+        width: 45%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .catagory-card img{
+        margin-right: 5px;
+    }
+    
 }
 
 
@@ -117,9 +138,6 @@
 
 /* Tablet device */
 @media screen and (min-width: 577px) and (max-width: 900px) {
-    body{
-        padding: 0 20px;
-    }
     /* Nav bar style */
     .nav-content{
         width: 90%;
@@ -194,5 +212,25 @@
         width: 35%;
         top: 480px;
         left: -30px;
+    }
+
+
+
+
+    /* Play game section style */
+    .catagory{
+        width: 100%;
+        margin: 150px 0;
+        padding: 80px 15px;
+    }
+    .catagory-container{
+        width: 100%;
+        margin: 0;
+        gap: 10px;
+    }
+    .catagory-card{
+        width: 30%;
+        padding: 10px;
+        font-size: 14px;
     }
 }

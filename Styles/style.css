@@ -293,3 +293,42 @@ section{
     top: 400px;
     left: -100px;
 }
+
+
+
+
+
+
+
+/* Game catagory styles */
+.catagory{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 300px 0;
+    padding: 120px 250px;
+}
+.catagory-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.catagory-card{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 10px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+.catagory-card:hover{
+    color: #e41a82;
+    border: 3px solid #e41a82;
+}
+.catagory-card img{
+    margin-right: 16px;
+}
